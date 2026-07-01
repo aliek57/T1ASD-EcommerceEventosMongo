@@ -1,0 +1,5 @@
+package br.edu.utfpr.td.tsi.ecommerce.produtos;
+
+public class ProdutoListener {
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;br.edu.utfpr.td.tsi.ecommerce.produtos.ProdutoListener.java&apos; to &apos;ProdutosListener.java&apos;&#x0D;&#x0A;- Original project: &apos;ecommerce.produtos&apos;&#x0D;&#x0A;- Original element: &apos;br.edu.utfpr.td.tsi.ecommerce.produtos.ProdutoListener.java&apos;&#x0D;&#x0A;- Renamed element: &apos;br.edu.utfpr.td.tsi.ecommerce.produtos.ProdutosListener.java&apos;" description="Rename compilation unit &apos;ProdutoListener.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;br.edu.utfpr.td.tsi.ecommerce.produtos{ProdutoListener.java" name="ProdutosListener.java" references="false" stamp="1782944112745" version="1.0"/>
+</session>
