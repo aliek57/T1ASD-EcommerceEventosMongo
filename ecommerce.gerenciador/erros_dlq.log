@@ -1,0 +1,6 @@
+--- ERRO DE PAGAMENTO REGISTRADO EM: 2026-07-02T16:59:50.320403600 ---
+{"_id": {"$oid": "6a46c33213fc6843d73fa544"}, "nomeCliente": "Cliente Teste", "emailCliente": "teste@teste.com", "cep": "85903320", "numeroCartao": "12345678", "itens": [{"_id": "prod-001", "nome": "Cafeteira Elétrica", "preco": "199.90", "quantidadeEmEstoque": 0}], "valorTotal": "-2", "_class": "br.edu.utfpr.td.tsi.ecommerce.loja.Venda"}
+
+--- ERRO DE PAGAMENTO REGISTRADO EM: 2026-07-02T17:10:25.534186800 ---
+{"_id": {"$oid": "6a46c5b013fc6843d73fa545"}, "nomeCliente": "Cliente Teste", "emailCliente": "teste@teste.com", "cep": "85903320", "numeroCartao": "12345678", "itens": [{"_id": "prod-001", "nome": "Cafeteira Elétrica", "preco": "199.90", "quantidadeEmEstoque": 0}], "valorTotal": "-2", "_class": "br.edu.utfpr.td.tsi.ecommerce.loja.Venda"}
+

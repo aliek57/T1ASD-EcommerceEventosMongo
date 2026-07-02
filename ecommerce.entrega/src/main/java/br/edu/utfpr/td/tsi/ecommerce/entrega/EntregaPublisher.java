@@ -13,4 +13,8 @@ public class EntregaPublisher {
     public void notificarEmail(String emailJson) {
         rabbitTemplate.convertAndSend("fila.email", emailJson);
     }
+    
+    public void notificarCompraConcluida(String vendaJson) {
+        rabbitTemplate.convertAndSend("fila.compra.concluida", vendaJson);
+    }
 }

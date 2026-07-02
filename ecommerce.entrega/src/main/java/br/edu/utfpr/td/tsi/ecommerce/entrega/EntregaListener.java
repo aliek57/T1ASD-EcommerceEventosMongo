@@ -33,6 +33,8 @@ public class EntregaListener {
             emailJson.addProperty("assunto", "Seu pedido foi Postado!");
             emailJson.addProperty("mensagem", "Olá " + cliente + ", seu pacote saiu para entrega. Código de rastreio: " + codigoRastreio + ". Entrega prevista até " + dataPrevisao);
             p.notificarEmail(emailJson.toString());
+            
+            p.notificarCompraConcluida(mensagemJson);;
 
 		} catch (Exception e) {
 			logger.log(Level.SEVERE, "Erro ao processar agendamento de entrega: " + e.getMessage(), e);

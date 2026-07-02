@@ -22,7 +22,12 @@ public class ProdutosListener {
 			if (itens != null) {
 				itens.forEach(itemElement -> {
 					JsonObject item = itemElement.getAsJsonObject();
-					String idProduto = item.get("id").getAsString();
+					String idProduto = "";
+					if (item.has("_id")) {
+						idProduto = item.get("_id").getAsString();
+					} else if (item.has("id")) {
+						idProduto = item.get("id").getAsString();
+					};
 					
 					ProdutoEndpoint.baixarEstoque(idProduto);
 				});
